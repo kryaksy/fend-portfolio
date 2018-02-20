@@ -1,6 +1,2 @@
-# Portfolio Project
-## Google & Udacity Front End Developer Nanodegree
-
-JANE DOETTE
-
-_Front-End Ninja_
+# fend-portfolio
+Portfolio Project - FEWD Nanodegree
