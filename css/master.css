@@ -1,7 +1,12 @@
+* {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+html {}
+
 body {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  height: 100%
 }
 
 header {
@@ -9,8 +14,6 @@ header {
   padding: 20px;
   text-align: center;
   color: #2d3c49;
-  position: relative;
-  z-index: 2;
 }
 
 header#logo {}
@@ -23,21 +26,22 @@ main {
   margin: 0px;
 }
 
-section#hero {
+#hero {
   position: relative;
-  margin-top: 20px;
-  height: 25em;
+  margin-top: 40px;
+  height: 500px;
   width: 100%;
-  background-image: url("https://placeimg.com/640/480/any/grayscale");
+  background-image: url("https://placeimg.com/800/500/people/2");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top center;
 }
 
-section#works {}
+#works {}
 
-section#works .title {
-  margin-top: 30px;
+#works .header {
+  margin-top: 50px;
+  margin-bottom: 30px;
   text-align: center;
   width: 100%;
   text-transform: uppercase;
@@ -45,28 +49,43 @@ section#works .title {
   color: #7d97ad;
 }
 
-section#works a {
-  color: #02b3e4;
-}
-
-section#works div.work {
+#works .work {
   margin-bottom: 30px;
   width: 100%;
   text-align: center;
 }
 
-section#works div.work .image {
-  height: 200px;
+#works .work .image {
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-section#works div.work div.content {}
-
-section#works div.work .content .title {
-  color: aliceblue;
+#works .work#appify .image {
+  background-image: url("https://placeimg.com/400/300/tech/1");
 }
 
-section#works div.work#appify {}
+#works .work#sun-flower .image {
+  background-image: url("https://placeimg.com/400/300/tech/2");
+}
 
-section#works div.work#sun-flower {}
+#works .work#bokeh .image {
+  background-image: url("https://placeimg.com/400/300/tech/3");
+}
 
-section#works div.work#bokeh {}
+#works .work .content {
+  position: relative;
+  padding-top: 10px
+}
+
+#works .work .content .title {
+  margin: 0;
+  color: #2d3c49;
+  text-transform: uppercase;
+}
+
+#works .work .content a {
+  color: #02b3e4;
+}

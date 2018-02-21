@@ -1,0 +1,64 @@
+@media screen and (max-width: 500px) {}
+
+@media screen and (min-width: 720px) {
+  header {
+    padding: 40px;
+    color: #2d3c49;
+  }
+  #logo {
+    float: left;
+  }
+  #logo img {
+    width: 60px;
+    margin-top: 20px
+  }
+  #me {
+    float: right;
+    text-align: right;
+  }
+  #hero {
+    height: 500px
+  }
+  #works {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+  #works .header {
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: left;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #7d97ad;
+  }
+  #works .work {
+    margin-bottom: 30px;
+    width: 32%;
+    text-align: center;
+  }
+  #works .work .image {
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  #works .work .content {
+    position: relative;
+    padding-top: 10px
+  }
+  #works .work .content .title {
+    margin: 0;
+    color: #2d3c49;
+    text-transform: uppercase;
+  }
+  #works .work .content a {
+    color: #02b3e4;
+  }
+}
+
+@media screen and (max-width: 900px) {}
