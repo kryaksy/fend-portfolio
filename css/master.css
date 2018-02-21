@@ -6,10 +6,12 @@
 html {}
 
 body {
-  height: 100%
+  width: 100%;
+  height: 100%;
 }
 
 header {
+  position: relative;
   height: 140px;
   padding: 20px;
   text-align: center;
@@ -19,7 +21,15 @@ header {
 header#logo {}
 
 #myName, #myTitle {
+  margin: auto;
+  text-transform: lowercase;
+  font-size: 13pt;
+}
+
+#myName {
+  margin: 18px auto 0;
   text-transform: uppercase;
+  font-size: 33pt;
 }
 
 main {
@@ -28,10 +38,10 @@ main {
 
 #hero {
   position: relative;
-  margin-top: 40px;
-  height: 500px;
+  margin-top: 20px;
+  height: 400px;
   width: 100%;
-  background-image: url("https://placeimg.com/800/500/people/2");
+  background-image: url("https://placeimg.com/800/500/people");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -40,27 +50,26 @@ main {
 #works {}
 
 #works .header {
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   text-align: center;
   width: 100%;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 20pt;
   color: #7d97ad;
 }
 
 #works .work {
   margin-bottom: 30px;
-  width: 100%;
   text-align: center;
 }
 
 #works .work .image {
-  height: 300px;
+  height: 250px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
 }
 
 #works .work#appify .image {
