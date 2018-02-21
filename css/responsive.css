@@ -1,20 +1,24 @@
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 549px) {
   #works .work {
     width: 95%;
   }
-}
-
-@media screen and (min-width: 500px) and (max-width: 719px) {
-  #works .work {
-    width: 95%;
+  #myName {
+    width: 284px;
+    font-size: 28pt;
+    border-bottom: 1px solid #7d97ad;
+  }
+  #myTitle {
+    margin-top: 4px;
+    font-size: 12pt;
   }
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 550px) {
   header {
-    padding: 20px;
+    width: 95%;
     color: #2d3c49;
     border-bottom: 2px solid #7d97ad;
+    padding-bottom: 0px;
   }
   #logo {
     float: left;
@@ -27,7 +31,9 @@
     float: right;
     text-align: right;
   }
-  #hero {}
+  #hero {
+    margin-top: 20px;
+  }
   #works {
     margin-left: auto;
     margin-right: auto;
@@ -71,18 +77,34 @@
   #works .work .content a {
     font-size: 7pt
   }
+  #hero {}
 }
 
 @media screen and (min-width: 1000px) {
   header {
-    width: 1000px;
+    width: 95%;
     padding-bottom: 20px;
     border-bottom: 2px solid #7d97ad;
   }
-  #hero {
-    width: 1000px;
-  }
   #works {
-    width: 1000px;
+    width: 95%;
+  }
+  #hero {
+    width: 1000px
+  }
+}
+
+@media screen and (min-width: 1052px) {
+  #works {
+    width: 1030px;
+  }
+  #hero {
+    width: 1000px
+  }
+}
+
+@media screen and (min-width: 1076px) {
+  header {
+    width: 1030px;
   }
 }

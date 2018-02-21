@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
 * {
   margin: 0px auto;
   padding: 0px auto;
@@ -20,17 +21,21 @@ header {
 
 header#logo {}
 
+#me {
+  text-transform: uppercase;
+  margin: 28px auto 0;
+}
+
 #myName, #myTitle {
   margin: auto;
-  text-transform: lowercase;
-  font-size: 13pt;
 }
 
 #myName {
-  margin: 18px auto 0;
-  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 33pt;
 }
+
+#myTitle {}
 
 main {
   margin: 0px;
@@ -38,7 +43,7 @@ main {
 
 #hero {
   position: relative;
-  margin-top: 20px;
+  margin-top: 30px;
   height: 400px;
   width: 100%;
   background-image: url("https://placeimg.com/800/500/people");
@@ -47,7 +52,9 @@ main {
   background-position: top center;
 }
 
-#works {}
+#works {
+  width: 95%;
+}
 
 #works .header {
   margin-top: 30px;
