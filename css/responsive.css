@@ -73,7 +73,7 @@
   #works .work .content a {}
 }
 
-@media screen and (min-width: 650px) and (max-width: 800px) {
+@media screen and (min-width: 549px) and (max-width: 800px) {
   #works .work .content a {
     font-size: 7pt
   }
@@ -88,7 +88,7 @@
   #hero {
     width: 1000px
   }
-  #works{
+  #works {
     width: 95%;
   }
 }
@@ -103,8 +103,7 @@
   header {
     width: 1030px;
   }
-  #works{
+  #works {
     width: 1030px;
   }
-
 }
