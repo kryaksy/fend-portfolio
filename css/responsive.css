@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 549px) {
   header {
     width: 95%;
     color: #2d3c49;
