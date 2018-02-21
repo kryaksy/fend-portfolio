@@ -103,5 +103,6 @@ main {
 }
 
 #works .work .content a {
+  font-size: 9pt;
   color: #02b3e4;
 }

@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
   header {
     width: 95%;
     color: #2d3c49;
@@ -73,11 +73,10 @@
   #works .work .content a {}
 }
 
-@media screen and (min-width: 720px) and (max-width: 800px) {
+@media screen and (min-width: 650px) and (max-width: 800px) {
   #works .work .content a {
     font-size: 7pt
   }
-  #hero {}
 }
 
 @media screen and (min-width: 1000px) {
@@ -86,18 +85,15 @@
     padding-bottom: 20px;
     border-bottom: 2px solid #7d97ad;
   }
-  #works {
-    width: 95%;
-  }
   #hero {
     width: 1000px
+  }
+  #works{
+    width: 95%;
   }
 }
 
 @media screen and (min-width: 1052px) {
-  #works {
-    width: 1030px;
-  }
   #hero {
     width: 1000px
   }
@@ -107,4 +103,8 @@
   header {
     width: 1030px;
   }
+  #works{
+    width: 1030px;
+  }
+
 }
