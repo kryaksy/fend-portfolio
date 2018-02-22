@@ -6,6 +6,11 @@
 
 html {
   font-family: 'Josefin Sans', sans-serif;
+  /* background-color: #7d97ad; */
+}
+
+#logo img {
+  width: 40px
 }
 
 body {
