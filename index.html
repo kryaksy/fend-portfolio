@@ -7,51 +7,58 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 </head>
 
 <body>
   <!-- TODO: PLAY: Image shadow and other effects -->
   <!-- TODO: LEARN: Optimize Images - use Responsive Image Methods (e.g. srcset property)-->
-  <header>
-    <div id="header">
-      <div id="logo">
+  <!-- REVIEW: Use FLEXBOX better-->
+  <!-- REVIEW: Eliminate all use of float for layout across all viewports -->
+  <!-- REVIEW: try to use SRCSET -->
+  <!-- REVIEW: Prepare simple readme.md -->
+  <header class="main">
+    <div class="container">
+      <div class="logo">
         <img src="img/udacity.svg" alt="udacity-logo">
       </div>
-      <div id="me">
-        <h1 id="my-name">jane doette</h1>
-        <h2 id="my-title">front-end ninja</h2>
+      <div class="me">
+        <h1 class="my-name">jane doette</h1>
+        <h2 class="my-title">front-end ninja</h2>
       </div>
     </div>
   </header>
-  <!-- TODO: Add horizontal line -->
   <div id="hero"></div>
   <section id="works">
-    <h2 class="header">featured work</h2>
-    <div id="appify" class="work">
+    <header>
+      <h2>featured work</h2>
+    </header>
+    <article id="appify" class="work">
       <div class="image">
       </div>
       <div class="content">
         <h3 class="title">appify</h3>
-        <a href="https://github.com/udacity/Appify.git" target="_blank">https://github.com/udacity/Appify/</a>
+        <p> <a href="https://github.com/udacity/Appify.git" target="_blank">https://github.com/udacity/Appify/</a>
+        </p>
       </div>
-    </div>
-    <div id="sun-flower" class="work">
+    </article>
+    <article id="sun-flower" class="work">
       <div class="image">
       </div>
       <div class="content">
         <h3 class="title">sun flower</h3>
-        <a href="https://github.com/udacity/Sunflower.git" target="_blank">https://github.com/udacity/Sunflower/</a>
+        <p> <a href="https://github.com/udacity/Sunflower.git" target="_blank">https://github.com/udacity/Sunflower/</a>
+        </p>
       </div>
-    </div>
-    <div id="bokeh" class="work">
+    </article>
+    <article id="bokeh" class="work">
       <div class="image">
       </div>
       <div class="content">
         <h3 class="title">bokeh</h3>
-        <a href="https://github.com/udacity/Bokeh.git" target="_blank">https://github.com/udacity/Bokeh/</a>
+        <p> <a href="https://github.com/udacity/Bokeh.git" target="_blank">https://github.com/udacity/Bokeh/</a>
+        </p>
       </div>
-    </div>
+    </article>
   </section>
 </body>
 

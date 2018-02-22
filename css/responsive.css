@@ -1,133 +1,129 @@
 @media screen and (max-width: 409px) {
-  #me {
+
+  header .me {
     margin-top: 17px;
   }
-  #my-name {
+
+  header .my-name {
     width: 190px;
     font-size: 20pt;
     border-bottom: 1px solid #7d97ad;
     /* border-bottom: 1px solid #02b3e4; */
   }
-  #my-title {
+
+  header .my-title {
     margin-top: 4px;
     font-size: 9pt;
   }
 }
 
 @media screen and (max-width: 549px) and (min-width:410px) {
-  #me {
+
+  header .me {
     margin-top: 31px;
   }
-  #my-name {
+
+  header .my-name {
     font-size: 20pt;
   }
-  #my-title {
+
+  header .my-title {
     font-family: sans-serif;
     font-size: 9pt;
   }
-  /*
-  /* Dark Theme for mobile view */
-  /*
-  /* body {
-    background-color: #000;
-  }
-  a {
-    text-decoration: none;
-  }
-  header {
-    color: white
-  }
-  #my-title {
-    color: #7d97ad
-  }
-  .work .title {
-    color: white
-  } */
-  /* Dark Theme for mobile view ends */
 }
 
 @media screen and (min-width: 410px) {
-  header {
+
+  header.main {
     width: 95%;
     border-bottom: 2px solid #7d97ad;
     padding-bottom: 0px;
   }
-  #logo {
+
+  header .logo {
     float: left;
   }
-  #logo img {
+
+  header .logo img {
     width: 50px;
     margin: 25px 0px;
   }
-  #me {
+
+  header .me {
     float: right;
     text-align: right;
   }
+
   #hero {
     margin-top: 20px;
   }
 }
 
 @media screen and (min-width: 550px) {
-  #logo img {
+
+  header .logo img {
     width: 60px;
     margin: 20px 0px;
   }
+
   #works {
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
   }
-  #works .header {
+
+  #works header {
     margin-left: 10px;
     text-align: left;
   }
+
   #works .work {
     width: 32%;
   }
+
   #works .work .image {
     height: 300px;
   }
 }
 
 @media screen and (min-width: 550px) and (max-width: 800px) {
+
   #works .work .content a {
     font-size: 7pt;
   }
 }
 
-@media screen and (max-width: 1000px) {}
-
 @media screen and (min-width: 1000px) {
-  header {
+
+  header.main {
     width: 95%;
     border-bottom: 2px solid #7d97ad;
   }
+
   #hero {
     width: 1000px;
   }
+
   #works {
     width: 95%;
   }
 }
 
-@media screen and (min-width: 1050px) {
-  #hero {
-    width: 1000px;
-  }
-}
-
 @media screen and (max-width: 1130px) {
-  #header {
+
+  header.main .container {
     margin: auto 20px;
   }
 }
 
 @media screen and (min-width: 1130px) {
-  header {
+
+  header.main {
     width: 1076px;
   }
+
   #works {
     width: 1076px;
   }
