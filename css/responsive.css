@@ -112,7 +112,7 @@
   }
 }
 
-@media screen and (min-width: calc(1050px)) {
+@media screen and (min-width: 1050px) {
   #hero {
     width: 1000px;
   }
