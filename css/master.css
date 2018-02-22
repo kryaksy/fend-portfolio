@@ -1,44 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100');
 * {
-  margin: 0px auto;
-  padding: 0px auto;
+  margin: auto;
+  padding: 0;
 }
 
-html {}
+html {
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 body {
   width: 100%;
   height: 100%;
 }
 
-header {
+#header {
   position: relative;
-  height: 140px;
-  padding: 20px;
+  height: 100px;
+  padding-top: 30px;
   text-align: center;
+  /* color: #02b3e4; */
+  /* color: #7d97ad; */
   color: #2d3c49;
+  /* color: black; */
 }
-
-header#logo {}
 
 #me {
   text-transform: uppercase;
-  margin: 28px auto 0;
+  margin-top: 25px;
 }
 
-#myName, #myTitle {
+#my-name {
   margin: auto;
+  font-size: 22pt;
+  font-weight: 100;
 }
 
-#myName {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 33pt;
-}
-
-#myTitle {}
-
-main {
-  margin: 0px;
+#my-title {
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: 600;
+  margin: auto;
+  /* color: #02b3e4; */
+  /* color: #7d97ad; */
+  color: #2d3c49;
+  /* color: #333; */
 }
 
 #hero {
@@ -46,7 +51,7 @@ main {
   margin-top: 30px;
   height: 400px;
   width: 100%;
-  background-image: url("https://placeimg.com/800/500/people");
+  background-image: url("https://placeimg.com/800/500/people/1");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -58,12 +63,14 @@ main {
 
 #works .header {
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
   width: 100%;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 20pt;
+  /* color: #02b3e4; */
   color: #7d97ad;
+  /* color: #2d3c49; */
 }
 
 #works .work {
@@ -76,7 +83,7 @@ main {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
 }
 
 #works .work#appify .image {
@@ -92,17 +99,31 @@ main {
 }
 
 #works .work .content {
-  position: relative;
-  padding-top: 10px
+  padding-top: 8px
 }
 
 #works .work .content .title {
-  margin: 0;
-  color: #2d3c49;
+  margin: 5px 0 0 0;
+  /* color: #02b3e4; */
+  /* color: #7d97ad; */
+  /* color: #2d3c49; */
+  /* color: #aaa; */
   text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 16pt;
+  font-weight: 500;
 }
 
 #works .work .content a {
-  font-size: 9pt;
-  color: #02b3e4;
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 3px auto;
+  padding: 5px;
+  font-size: 10pt;
+  font-weight: 300;
+  /* color: #02b3e4; */
+  color: #7d97ad;
+  /* color: #2d3c49; */
+  /* color: #333; */
 }
