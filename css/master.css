@@ -10,7 +10,7 @@ html {
 }
 
 #logo img {
-  width: 40px
+  width: 40px;
 }
 
 body {
@@ -35,7 +35,6 @@ body {
 }
 
 #my-name {
-  margin: auto;
   font-size: 22pt;
   font-weight: 100;
 }
@@ -56,10 +55,8 @@ body {
   margin-top: 30px;
   height: 400px;
   width: 100%;
-  background-image: url("https://placeimg.com/800/500/people/1");
-  background-repeat: no-repeat;
+  background: url(https://placeimg.com/800/500/people/2) no-repeat top center;
   background-size: cover;
-  background-position: top center;
 }
 
 #works {
@@ -92,19 +89,19 @@ body {
 }
 
 #works .work#appify .image {
-  background-image: url("https://placeimg.com/400/300/tech/1");
+  background-image: url(https://placeimg.com/400/300/tech/1);
 }
 
 #works .work#sun-flower .image {
-  background-image: url("https://placeimg.com/400/300/tech/2");
+  background-image: url(https://placeimg.com/400/300/tech/2);
 }
 
 #works .work#bokeh .image {
-  background-image: url("https://placeimg.com/400/300/tech/3");
+  background-image: url(https://placeimg.com/400/300/tech/3);
 }
 
 #works .work .content {
-  padding-top: 8px
+  padding-top: 8px;
 }
 
 #works .work .content .title {
@@ -120,11 +117,11 @@ body {
 }
 
 #works .work .content a {
-  display: block;
   text-decoration: none;
-  font-family: sans-serif;
+  display: block;
   margin: 3px auto;
   padding: 5px;
+  font-family: sans-serif;
   font-size: 10pt;
   font-weight: 300;
   /* color: #02b3e4; */
